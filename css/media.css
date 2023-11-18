@@ -1,0 +1,150 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+
+
+    .logo a img{
+        width: 150px;
+    }
+
+    nav .website_width{
+        display: flex;
+        justify-content: center;
+    }
+    .nav_contact{
+        display: none;
+    }
+
+    .banner .website_width{
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 15px;
+    }
+    .banner{
+        background: url('../img/banner.jpg') center;
+        background-size: cover;
+    }
+    .banner_intro{
+        text-align: center;
+    }
+    .banner_intro h3,.banner_intro h4,.banner_intro h5{
+        margin-bottom: 10px;
+    }
+    .banner_intro h3 span{
+        font-size: 28px;
+    }
+    .banner_intro h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+      .banner_intro h4{
+        font-size: 18px;
+    }
+    .banner_intro h5{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .banner_intro img{
+        width: 100px;
+    }
+    .banner_form li:nth-child(6){
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .packing_videos ul{
+        padding: 0px 15px;
+        justify-content: center;
+    }
+
+    .our_core_services ul{
+        padding: 0 15px;
+    }
+    
+    .why_packshifts ul{
+        padding: 0 15px;
+        gap: 20px 20px;
+        justify-content: center;
+    }
+    .why_packshifts ul li{
+        flex-basis: 230px;
+    }
+    .our_achivements ul{
+        padding: 0px 15px;
+        justify-content: center;
+    }
+
+    .happy_customers{
+        padding: 0px 10px;
+    }
+    .happy_customers>div{
+        flex-direction: column;
+        padding: 15px 25px 70px;
+    }
+    .happy_customers>div>div{
+        margin-bottom: 40px;
+        padding: 13px 15px;
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+    .happy_customers>div>p>img{
+        top: -20px;
+        left: -15px;
+    }
+
+    .our_clients ul{
+        justify-content: center;
+        gap: 10px 20px;
+    }
+    
+    .our_branches ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .our_branches li{
+       width: 88%;
+       padding: 20px 10px;
+    }
+
+    .footer_inner{
+        padding: 0 10px;
+    }
+
+    .btm_contact_links{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    footer{
+        margin-bottom: 50px;
+        padding-bottom: 60px;
+    }
+
+    .back_to_top{
+        bottom: 70px;
+    }
+
+    .btm_contact_links a{
+        width: 50%;
+        padding: 15px 30px;
+        display: flex;
+        gap: 3px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .btm_contact_links a:nth-child(1){
+        background-color:#035fae;
+    }
+    .btm_contact_links a:nth-child(2){
+        background-color:#ffcf40;
+    }
+    
+
+    .moving_truck{
+        display: none;
+    }
+}
+    
